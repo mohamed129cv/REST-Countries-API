@@ -4,7 +4,7 @@ let previewCauntryContainer =
 let btnBack = document.getElementsByClassName("btn-back")[0];
 btnBack.addEventListener("click", () => {
   // localStorage.removeItem('cauntry')
-  location.assign("../index.html");
+  location.assign("./index.html");
 });
 function previewCauntry(cauntry) {
   let borderCauntry = ``;

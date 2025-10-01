@@ -73,7 +73,7 @@ containerCauntry.addEventListener("click", (event) => {
       "cauntry",
       JSON.stringify(arrOfCauntrys[indexOfCauntry])
     );
-    location.assign("../cauntry-informtion.html");
+    location.assign("./cauntry-informtion.html");
   }
 });
 let btnDarkMode = document.getElementById("btnDarkMode");
