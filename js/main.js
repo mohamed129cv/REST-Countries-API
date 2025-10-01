@@ -4,7 +4,7 @@ let searchInput = document.querySelector("nav input");
 let arrOfCauntrys = [];
 async function ititCauntry() {
   try {
-    let api = await fetch("../data.json");
+    let api = await fetch("./data.json");
     let data = await api.json();
     arrOfCauntrys = data;
     displayCauntry(arrOfCauntrys);
